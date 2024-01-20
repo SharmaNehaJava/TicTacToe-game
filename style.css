@@ -137,3 +137,22 @@ nav h1{
     font-size: 2em;
     animation: rotateX 5s infinite linear;
 }
+
+@media only screen and (max-width: 700px) {
+    .container {
+        /* margin-top: 1rem; */
+        width: 80%;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .box {
+        height: 25%;
+        width: 25%;
+        font-size: 1.5rem;
+    }
+
+    #reset {
+        margin-top: 0.5rem;
+    }
+} 
